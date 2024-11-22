@@ -18,9 +18,11 @@ int main(){
     }else if (nota >= 6.0 && nota < 7.0  ){
         printf("Sua nota tem conceito D.\n");
 
-    }else{
+    }else if (nota >= 5.0 && nota < 6.0){
         printf("Sua nota tem conceito E.\n");
 
+    }else{
+         printf("Sua nota tem conceito F.\n");
     }
 
     return 0;
