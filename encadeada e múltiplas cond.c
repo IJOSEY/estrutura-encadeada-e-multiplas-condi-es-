@@ -17,6 +17,7 @@ else if (idade >= 12 && idade <= 18)
 else if ( idade >= 18 && idade <= 60)
 {
     printf("Você é um adulto.");
+
 } else if (idade < 60 ){
     printf("Você é idoso.\n");
 
