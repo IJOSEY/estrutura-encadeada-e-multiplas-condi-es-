@@ -7,19 +7,19 @@ int main(){
     scanf("%f",&nota);
 
     if(nota >= 9.0 ){
-         printf("Sua nota tem conceito A");
+         printf("Sua nota tem conceito A.\n");
 
     }else if(nota >= 8.0 && nota < 9.0 ){
-        printf("Sua nota tem conceito B");
+        printf("Sua nota tem conceito B.\n");
 
     }else if (nota >= 7.0 && nota < 8.0 ){
-        printf("Sua nota tem conceito C");
+        printf("Sua nota tem conceito C.\n");
 
     }else if (nota >= 6.0 && nota < 7.0  ){
-        printf("Sua nota tem conceito D");
+        printf("Sua nota tem conceito D.\n");
 
     }else{
-        printf("Sua nota tem conceito E");
+        printf("Sua nota tem conceito E.\n");
 
     }
 
